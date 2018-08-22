@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[2],{236:function(e,a,n){"use strict";n.r(a);var t=n(0),c=n.n(t),l=n(86),s=n(41);a.default=function(){return c.a.createElement(s.a,null,c.a.createElement(l.a,{as:"h2"},"Dynamic Page"),c.a.createElement("p",null,"This page was loaded asynchronously!!!"))}}}]);
+//# sourceMappingURL=DynamicPage.c9a9b4e74cac424563f5.js.map
