@@ -2,6 +2,7 @@ const commonPaths = require("./common-paths");
 const webpack = require("webpack");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const ExtractTextPlugin = require("extract-text-webpack-plugin");
+var ManifestPlugin = require("webpack-manifest-plugin");
 
 const config = {
   entry: {
@@ -31,6 +32,7 @@ const config = {
               options: {
                 modules: true,
                 importLoaders: 1,
+                localIdentName: "[name]__[local]___[hash:base64:5]",
                 camelCase: true,
                 sourceMap: true
               }

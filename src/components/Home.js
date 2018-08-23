@@ -8,7 +8,7 @@ const Home = () => {
     <Layout>
       <p>Hello World of React andasd Webpack!</p>
       <p>
-        <Link to="/dynamic">Navigate to Dynamic Page!#</Link>
+        <Link to="/dynamic">Navigate to Dynamic Page!#~!~!~</Link>
       </p>
     </Layout>
   );

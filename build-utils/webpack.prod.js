@@ -7,10 +7,15 @@ const config = {
     app: [`${commonPaths.appEntry}/index.js`]
   },
   output: {
-    filename: "static/[name].[hash].js"
+    filename: "static/[name].[chunkhash].js"
   },
   devtool: "source-map",
   module: {},
-  plugins: []
+  plugins: [
+    new ManifestPlugin({
+      fileName: "assets.json",
+      basePath: "/"
+    })
+  ]
 };
 module.exports = config;

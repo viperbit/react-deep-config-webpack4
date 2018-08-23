@@ -17,7 +17,8 @@
     "react-imported-component": "^4.6.2",
     "react-prop-types": "^0.4.0",
     "react-router-dom": "^4.3.1",
-    "semantic-ui-react": "^0.82.2"
+    "semantic-ui-react": "^0.82.2",
+    "webpack-manifest-plugin": "^2.0.3"
   },
   "devDependencies": {
     "autoprefixer": "^9.1.2",
